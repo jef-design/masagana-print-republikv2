@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+      @apply scroll-smooth text-[14px] text-slate-600 scroll-pt-36 leading-7;
+    }
+    h1 {
+      @apply text-clamp
+    }
+   
+  }
